@@ -64,16 +64,16 @@ mv KGM1.dat patchfilekgm
 mv KGM2.dat patchfilekgm2
 mv KGM3.dat patchfilekgm3
 sleep 5 
-mv patchfilekgm /sdcard/Android/data/mrx.vip.data/Global/
-mv patchfilekgm2 /sdcard/Android/data/mrx.vip.data/Global/
-mv patchfilekgm3 /sdcard/Android/data/mrx.vip.data/Global/
-mv libUE4.so /sdcard/Android/data/mrx.vip.data/Global/
-mv libabase.so /sdcard/Android/data/mrx.vip.data/Global/
-mv libBugly.so /sdcard/Android/data/mrx.vip.data/Global/
-mv libtprt.so /sdcard/Android/data/mrx.vip.data/Global/
-mv libzip.so /sdcard/Android/data/mrx.vip.data/Global/
-mv libzlib.so /sdcard/Android/data/mrx.vip.data/Global/
-mv AntiCheat.ini /sdcard/Android/data/mrx.vip.data/Global/
+mv patchfilekgm /sdcard/Android/data/mrx.vip.data/Global
+mv patchfilekgm2 /sdcard/Android/data/mrx.vip.data/Global
+mv patchfilekgm3 /sdcard/Android/data/mrx.vip.data/Global
+mv libUE4.so /sdcard/Android/data/mrx.vip.data/Global/LibMod
+mv libabase.so /sdcard/Android/data/mrx.vip.data/Global/LibMod
+mv libBugly.so /sdcard/Android/data/mrx.vip.data/Global/LibMod
+mv libtprt.so /sdcard/Android/data/mrx.vip.data/Global/LibMod
+mv libzip.so /sdcard/Android/data/mrx.vip.data/Global/LibMod
+mv libzlib.so /sdcard/Android/data/mrx.vip.data/Global/LibMod
+mv AntiCheat.ini /sdcard/Android/data/mrx.vip.data/Global
 if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/patchfilekgm" ];
 then
 echo ""
@@ -98,7 +98,7 @@ echo "Data Tidak ditemukan, silahkan unduh ulang file"
 echo "Atau hubungi admin @MrxAnom"
 exit 0;
 fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/libUE4.so" ];
+if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so" ];
 then
 echo ""
 echo "Installasi Gagal"
@@ -106,7 +106,7 @@ echo "Data Tidak ditemukan, silahkan unduh ulang file"
 echo "Atau hubungi admin @MrxAnom"
 exit 0;
 fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/libabase.so" ];
+if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so" ];
 then
 echo ""
 echo "Installasi Gagal"
@@ -114,7 +114,7 @@ echo "Data Tidak ditemukan, silahkan unduh ulang file"
 echo "Atau hubungi admin @MrxAnom"
 exit 0;
 fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/libBugly.so" ];
+if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so" ];
 then
 echo ""
 echo "Installasi Gagal"
@@ -122,7 +122,7 @@ echo "Data Tidak ditemukan, silahkan unduh ulang file"
 echo "Atau hubungi admin @MrxAnom"
 exit 0;
 fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/libtprt.so" ];
+if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so" ];
 then
 echo ""
 echo "Installasi Gagal"
@@ -130,7 +130,7 @@ echo "Data Tidak ditemukan, silahkan unduh ulang file"
 echo "Atau hubungi admin @MrxAnom"
 exit 0;
 fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/libzip.so" ];
+if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so" ];
 then
 echo ""
 echo "Installasi Gagal"
@@ -138,7 +138,7 @@ echo "Data Tidak ditemukan, silahkan unduh ulang file"
 echo "Atau hubungi admin @MrxAnom"
 exit 0;
 fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/libzlib.so" ];
+if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so" ];
 then
 echo ""
 echo "Installasi Gagal"
@@ -157,102 +157,19 @@ fi
 echo "Installasi Selesai"
 }
 
-urdata()
-{
-mv /sdcard/Android/data/mrx.vip.data/Global/libUE4.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
-mv /sdcard/Android/data/mrx.vip.data/Global/libabase.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
-mv /sdcard/Android/data/mrx.vip.data/Global/libBugly.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
-mv /sdcard/Android/data/mrx.vip.data/Global/libtprt.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
-mv /sdcard/Android/data/mrx.vip.data/Global/libzip.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so
-mv /sdcard/Android/data/mrx.vip.data/Global/libzlib.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
-mv /sdcard/Android/data/mrx.vip.data/Global/AntiCheat.ini /sdcard/Android/data/mrx.vip.data/Global/LibMod/AntiCheat.ini
-mv /sdcard/Android/data/mrx.vip.data/Global/patchfilekgm3 /sdcard/Android/data/mrx.vip.data/Global/game_patch_0.16.0.11462.pak
-mv /sdcard/Android/data/mrx.vip.data/Global/patchfilekgm2 /sdcard/Android/data/mrx.vip.data/Global/core_patch_0.16.0.11464.pak
-mv /sdcard/Android/data/mrx.vip.data/Global/patchfilekgm /sdcard/Android/data/mrx.vip.data/Global/core_patch_0.16.0.11463.pak
-}
-
-rndata()
-{
-mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so /sdcard/Android/data/mrx.vip.data/libUE4.so
-mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so /sdcard/Android/data/mrx.vip.data/Global/libabase.so
-mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so /sdcard/Android/data/mrx.vip.data/Global/libBugly.so
-mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so /sdcard/Android/data/mrx.vip.data/Global/libtprt.so
-mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so /sdcard/Android/data/mrx.vip.data/Global/libzip.so
-mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so /sdcard/Android/data/mrx.vip.data/Global/libzlib.so
-mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/AntiCheat.ini /sdcard/Android/data/mrx.vip.data/Global/AntiCheat.ini
-mv /sdcard/Android/data/mrx.vip.data/Global/game_patch_0.16.0.11462.pak /sdcard/Android/data/mrx.vip.data/Global/patchfilekgm3
-mv /sdcard/Android/data/mrx.vip.data/Global/core_patch_0.16.0.11464.pak /sdcard/Android/data/mrx.vip.data/Global/patchfilekgm2
-mv /sdcard/Android/data/mrx.vip.data/Global/core_patch_0.16.0.11463.pak /sdcard/Android/data/mrx.vip.data/Global/patchfilekgm1
-}
 
 bypass()
 {
-urdata
-cp -R /sdcard/Android/data/mrx.vip.data/Global/game_patch_0.16.0.11462.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp -R /sdcard/Android/data/mrx.vip.data/Global/game_patch_0.16.0.11464.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp -R /sdcard/Android/data/mrx.vip.data/Global/core_patch_0.16.0.11463.pak /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-rndata
+mv /storage/emulated/0/Android/data/mrx.vip.data/Global/patchfilekgm3 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
+mv /storage/emulated/0/Android/data/mrx.vip.data/Global/patchfilekgm2 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11464.pak
+mv /storage/emulated/0/Android/data/mrx.vip.data/Global/patchfilekgm /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.16.0.11463.pak
 }
 
 modstart()
 {
+
 chmod -R 000 /data/data/com.tencent.ig/files/hawk_data
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_issues
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_key_values
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_properties
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs_db_helpshift_users
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_support_key_values
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs_db_helpshift_users
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_sessions
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs_log_store
-chmod -R 000 /data/data/com.tencent.ig/databases/tdm.db
-chmod -R 000 /data/data/com.tencent.ig/databases/bugly_db_
-chmod -R 000 /data/data/com.tencent.ig/databases/config.db
-chmod -R 000 /data/data/com.tencent.ig/databases/iMSDK.db
 sleep 7
-echo "Backing Up Original Lib"
-cp /data/data/com.tencent.ig/lib/libUE4.so /sdcard/Android/data/mrx.vip.data/Global/bDATA/
-cp /data/data/com.tencent.ig/lib/libabase.so /sdcard/Android/data/mrx.vip.data/Global/bDATA/
-cp /data/data/com.tencent.ig/lib/libBugly.so /sdcard/Android/data/mrx.vip.data/Global/bDATA/
-cp /data/data/com.tencent.ig/lib/libtprt.so /sdcard/Android/data/mrx.vip.data/Global/bDATA/
-cp /data/data/com.tencent.ig/lib/libzip.so /sdcard/Android/data/mrx.vip.data/Global/bDATA/
-cp /data/data/com.tencent.ig/lib/libzlib.so /sdcard/Android/data/mrx.vip.data/Global/bDATA/
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/bDATA/libUE4.so" ];
-then
-echo ""
-echo "gagal backup"
-exit 0;
-fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/bDATA/libabase.so" ];
-then
-echo ""
-echo "gagal backup"
-exit 0;
-fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/bDATA/libBugly.so" ];
-then
-echo ""
-echo "gagal backup"
-exit 0;
-fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/bDATA/libtprt.so" ];
-then
-echo ""
-echo "gagal backup"
-exit 0;
-fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/bDATA/libzip.so" ];
-then
-echo ""
-echo "gagal backup"
-exit 0;
-fi
-if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/bDATA/libzlib.so" ];
-then
-echo ""
-echo "gagal backup"
-exit 0;
-fi
 urdata
 echo "Moving Lib Mod"
 mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so /data/data/com.tencent.ig/lib
@@ -269,10 +186,11 @@ repair()
 {
 cp -R /sdcard/Android/data/mrx.vip.data/Global/bLIB/* /data/data/com.tencent.ig/lib
 chmod -R 777 /data/data/com.tencent.ig/files/hawk_data
+
 chmod 755 /data/data/com.tencent.ig/lib/*
-if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11560.pak" ];
+if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak" ];
 then
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11560.pak
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
 fi
 if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak" ];
 then
@@ -300,7 +218,9 @@ exit 0;
 fi
 sleep 1
 echo "_Memulihkan Data"
+
 chmod -R 777 /data/data/com.tencent.ig/files/hawk_data
+
 chmod 755 /data/data/com.tencent.ig/lib/*
 if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11560.pak" ];
 then
