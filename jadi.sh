@@ -299,6 +299,7 @@ echo ""
 echo "_____BACA DULU DIATAS !!!"
 echo ""
 sleep 10
+
 echo "_Memulai Game PUBGM GLOBAL"
 sleep 2
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
@@ -313,9 +314,11 @@ echo ""
 while true
 do
 if [ ! $(pidof "com.tencent.ig") ]; then
+
 sleep 1
 echo "_PUBGM TELAH BERHENTI"
 sleep 1
+
 repair
 sleep 1
 rm -rf /sdcard/Android/data/spjk.vip.data
