@@ -265,7 +265,6 @@ chmod 755 /data/data/com.tencent.ig/lib/*
 #if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak" ];
 #then
 #rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
-fi
 sleep 1
 echo "_Data Telah Pulih"
 sleep 1
