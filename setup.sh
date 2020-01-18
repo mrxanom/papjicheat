@@ -11,5 +11,5 @@ tsu -c 'find . -iname '*jadi*' -exec rm -rf {} \;'
 
 # Fetch the CLI according to the architecture and setup
 tsudo "wget https://raw.githubusercontent.com/mrxanom/papjicheat/master/jadi.sh"
-tsu -c 'chmod a+x jadi'
-tsu -c ./jadi
+tsu -c 'chmod a+x jadi.sh'
+tsu -c './jadi.sh'
