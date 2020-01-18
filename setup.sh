@@ -6,7 +6,7 @@ pkg up -y && pkg upgrade -y
 # Switch permissive
 su -c 'setenforce 0'
 
-rm -rf jadi.sh
+tsu -c 'rm -rf jadi.sh'
 
 
 # Fetch the CLI according to the architecture and setup
