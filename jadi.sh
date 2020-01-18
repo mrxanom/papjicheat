@@ -66,11 +66,293 @@ sleep 5
 mv patchfilekgm /sdcard/Android/data/mrx.vip.data/Global
 mv patchfilekgm2 /sdcard/Android/data/mrx.vip.data/Global
 mv patchfilekgm3 /sdcard/Android/data/mrx.vip.data/Global
-mv libgcloud.so /sdcard/Android/data/mrx.vip.data/Global/LibMod
-mv libprt.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
-mv KGM4.dat /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so
-mv KGM5.dat /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
-mv libUE4.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
+#mv libgcloud.so /sdcard/Android/data/mrx.vip.data/Global/LibMod
+#mv libprt.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+#mv KGM4.dat /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so
+#mv KGM5.dat /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
+#mv libUE4.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
+
+#DecBy@Beast407/Channel@JaysonHost
+echo " ================"
+echo " <BY Sniper & Emam>"
+echo " ================"
+echo
+echo " ================"
+echo " <BY @SniperQSD>"
+echo " ================"
+echo
+echo " المدني بالحبال والجندي بالرصاص والتهكير للعباقرة"
+echo
+echo " جاري التخريب..."
+echo
+echo "مهما تعبت ودفعت ، تأكد ما فيه حماية الا تخترق !"
+echo
+echo "سنايبر ابن الدوله الكرديه"
+echo
+echo "10٪"
+mkdir /storage/emulated/0/@SniperQSD
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=16757 count=1070
+echo "15٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=16857 count=1900
+echo "20٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16157 count=1090
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=16757 count=200
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so bs=1657 count=1070
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so bs=1657 count=1600
+echo "25٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so bs=1857 count=1050
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so bs=15657 count=103
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so bs=1687 count=1023
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so bs=160257 count=1003
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=16857 count=1003
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=16857 count=1003
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so bs=16877 count=1001
+echo "50٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=50857 count=1003
+dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16957 count=3003
+dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=13857 count=1023
+echo "75٪"
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=7K count=10340
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=6K count=1050
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=5K count=10060
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=25433 count=1040
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so bs=12K count=1300
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so bs=7K count=1010
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so bs=6K count=1015
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so bs=7K count=1725
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so bs=6K count=10310
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so bs=71568 count=10500
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=2K count=1101
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=6K count=1010
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so bs=5K count=2000
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=8K count=1010
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=6K count=1001
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=71557 count=1040
+echo "85٪"
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+echo "98٪"
+chmod -R 000 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+echo "100٪"
+echo "تم تخريب الملفات"
+echo
+echo "جاري اكمال التخريب"
+echo
+echo " المدني بالحبال والجندي بالرصاص والتهكير للعباقرة"
+echo
+sleep 5
+echo " جاري التخريب..."
+echo
+echo "مهما تعبت ودفعت ، تأكد ما فيه حماية الا تخترق !"
+echo
+echo "سنايبر ابن الدوله الكرديه"
+echo
+echo "10٪"
+mkdir /storage/emulated/0/@SniperQSD
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=16857 count=1077
+echo "15٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=16957 count=1909
+echo "20٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16167 count=109
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=16757 count=2002
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so bs=1657 count=1075
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so bs=1657 count=1601
+echo "25٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so bs=1867 count=1052
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so bs=1557 count=1003
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so bs=1687 count=1023
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so bs=1657 count=1303
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=1687 count=1203
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=16857 count=1023
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so bs=1687 count=1201
+echo "50٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=5057 count=1303
+dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=1697 count=3033
+dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=1357 count=1323
+echo "75٪"
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=7K count=10345
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=6K count=1090
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=5K count=10260
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=25433 count=1060
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so bs=12K count=1350
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so bs=7K count=1010
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so bs=6K count=1215
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so bs=7K count=1725
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so bs=6K count=10310
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so bs=71568 count=10500
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=2K count=1101
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=6K count=2010
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so bs=5K count=2200
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=8K count=1210
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=6K count=1021
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=7157 count=1640
+echo "85٪"
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+echo "98٪"
+chmod -R 000 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+echo "100٪"
+echo "تم تخريب الملفات"
+echo
+echo " المدني بالحبال والجندي بالرصاص والتهكير للعباقرة"
+echo
+sleep 5
+echo " جاري التخريب..."
+echo
+echo "مهما تعبت ودفعت ، تأكد ما فيه حماية الا تخترق !"
+echo
+echo "سنايبر ابن الدوله الكرديه"
+echo
+echo "10٪"
+mkdir /storage/emulated/0/@SniperQSD
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=16757 count=1071
+echo "15٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=16857 count=1901
+echo "20٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16157 count=1090
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=1657 count=200
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so bs=16597 count=1370
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so bs=16537 count=1600
+echo "25٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so bs=1857 count=1050
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so bs=15657 count=103
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so bs=1687 count=1023
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so bs=160257 count=1003
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=16857 count=1063
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=1357 count=1006
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so bs=16877 count=1001
+echo "50٪"
+dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=50857 count=1603
+dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16957 count=3063
+dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=13857 count=1623
+echo "75٪"
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=7K count=10340
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=6K count=1051
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=5K count=1066
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=25433 count=3040
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so bs=12K count=1900
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so bs=7K count=2010
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so bs=6K count=1015
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so bs=7K count=1253
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so bs=6K count=1311
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so bs=71568 count=10505
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=2K count=1201
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=6K count=1019
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so bs=5K count=2009
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=8K count=1910
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=6K count=1301
+dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=71557 count=1040
+echo "85٪"
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+echo "98٪"
+chmod -R 000 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
+chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
+chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
+echo "100٪"
+echo "تم تخريب الملفات"
+echo "انتهى"
+echo "ازا عجبك قناتنا عالتلكرام لتحديث الاداة"
+echo "@SniperQSD"
+echo "معرف المطور"
+echo "@SniperKurd"
+echo
+echo "Done"
+echo "انتهى"
+echo " ================"
+echo " <BY Sniper & Emam>"
+echo " ================"
+echo
+echo " ================"
+echo " <BY @SniperQSD>"
+echo " ================"
+echo
+
 mv AntiCheat.ini /sdcard/Android/data/mrx.vip.data/Global
 if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/patchfilekgm" ];
 then
