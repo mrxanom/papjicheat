@@ -15,7 +15,7 @@ then
 echo "- Versi PUBG Tidak Sama dengan Versi Bypass"
 echo "- Silahkan Update Versi PUBG ke 0.16.5  yang Terbaru..."
 echo "- Dan Jika masalah masih muncul silahkan hubungi admin"
-echo "- Telegram: @admsprojecthack"
+echo "- Telegram: @mrxanom"
 exit 0;
 fi
 if [ ! -f "/data/data/com.tencent.ig/lib/libUE4.so" ];
@@ -30,13 +30,13 @@ echo ""
 echo "- Instalasi Selesai..."
 sleep 2
 fi
-echo "#_MEMULAI INSTALLASI DATA BYPASS GLOBAL [Version 5]"
+echo "#_MEMULAI INSTALLASI DATA BYPASS GLOBAL MrxAnom V1"
 echo ""
 echo ""
 sleep 1
 echo "Ini mungkin membutuhkan waktu lumayan lama ya cuyy.."
 sleep 1
-echo "Tergantung Kecepatan Koneksi Internet Kalian.."
+echo "Tergantung Spesifikasi HP Anda"
 echo ""
 echo ""
 mount -o rw,remount /data
@@ -52,12 +52,12 @@ sleep 1
 wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.0.11462.pak
 wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.0.11463.pak
 wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.0.11464.pak
-#wget https://github.com/mrxanom/lib/raw/master/libUE4.so
-#wget https://github.com/mrxanom/lib/raw/master/libgcloud.so
-#wget https://github.com/mrxanom/lib/raw/master/libprt.so
-#wget https://github.com/KoplaxsGaming/VIPKGM/raw/master/KGM4.dat
-#wget https://github.com/KoplaxsGaming/VIPKGM/raw/master/KGM5.dat
-#wget https://github.com/mrxanom/lib/raw/master/AntiCheat.ini
+wget https://github.com/mrxanom/lib/raw/master/libUE4.so
+wget https://github.com/mrxanom/lib/raw/master/libgcloud.so
+wget https://github.com/mrxanom/lib/raw/master/libprt.so
+wget https://github.com/KoplaxsGaming/VIPKGM/raw/master/KGM4.dat
+wget https://github.com/KoplaxsGaming/VIPKGM/raw/master/KGM5.dat
+wget https://github.com/mrxanom/lib/raw/master/AntiCheat.ini
 sleep 2
 mv game_patch_0.16.0.11462.pak patchfilekgm
 mv game_patch_0.16.0.11463.pak patchfilekgm2
@@ -72,34 +72,19 @@ mv patchfilekgm3 /sdcard/Android/data/mrx.vip.data/Global
 #mv KGM5.dat /sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so
 #mv libUE4.so /sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so
 
-#DecBy@Beast407/Channel@JaysonHost
 echo " ================"
-echo " <BY Sniper & Emam>"
+echo " <BY MrxAnom>"
 echo " ================"
-echo
-echo " ================"
-echo " <BY @SniperQSD>"
-echo " ================"
-echo
-echo " المدني بالحبال والجندي بالرصاص والتهكير للعباقرة"
-echo
-echo " جاري التخريب..."
-echo
-echo "مهما تعبت ودفعت ، تأكد ما فيه حماية الا تخترق !"
-echo
-echo "سنايبر ابن الدوله الكرديه"
+echo "Generating Lib!"
 echo
 echo "10٪"
 mkdir /sdcard/Android/data/mrx.vip.data/Global/LibMod
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=16757 count=1070
-echo "15٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=16857 count=1900
-echo "20٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16157 count=1090
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=16757 count=200
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so bs=1657 count=1070
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so bs=1657 count=1600
-echo "25٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so bs=1857 count=1050
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so bs=15657 count=103
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so bs=1687 count=1023
@@ -107,11 +92,9 @@ dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so 
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=16857 count=1003
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=16857 count=1003
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so bs=16877 count=1001
-echo "50٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=50857 count=1003
 dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16957 count=3003
 dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=13857 count=1023
-echo "75٪"
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=7K count=10340
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=6K count=1050
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=5K count=10060
@@ -128,7 +111,7 @@ dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so 
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=8K count=1010
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=6K count=1001
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=71557 count=1040
-echo "85٪"
+echo "20٪"
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
@@ -145,7 +128,6 @@ touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
-echo "98٪"
 chmod -R 000 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
@@ -162,31 +144,16 @@ chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
 chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
-echo "100٪"
-echo "تم تخريب الملفات"
-echo
-echo "جاري اكمال التخريب"
-echo
-echo " المدني بالحبال والجندي بالرصاص والتهكير للعباقرة"
+echo "30٪"
 echo
 sleep 5
-echo " جاري التخريب..."
-echo
-echo "مهما تعبت ودفعت ، تأكد ما فيه حماية الا تخترق !"
-echo
-echo "سنايبر ابن الدوله الكرديه"
-echo
-echo "10٪"
 mkdir /sdcard/Android/data/mrx.vip.data/Global/LibMod
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=16857 count=1077
-echo "15٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=16957 count=1909
-echo "20٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16167 count=109
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=16757 count=2002
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so bs=1657 count=1075
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so bs=1657 count=1601
-echo "25٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so bs=1867 count=1052
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so bs=1557 count=1003
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so bs=1687 count=1023
@@ -194,11 +161,10 @@ dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so 
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=1687 count=1203
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=16857 count=1023
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so bs=1687 count=1201
-echo "50٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=5057 count=1303
 dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=1697 count=3033
 dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=1357 count=1323
-echo "75٪"
+echo "40٪"
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=7K count=10345
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=6K count=1090
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=5K count=10260
@@ -215,7 +181,6 @@ dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so 
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=8K count=1210
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=6K count=1021
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=7157 count=1640
-echo "85٪"
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
@@ -232,7 +197,7 @@ touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
-echo "98٪"
+echo "50٪"
 chmod -R 000 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
@@ -249,29 +214,15 @@ chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
 chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
-echo "100٪"
-echo "تم تخريب الملفات"
-echo
-echo " المدني بالحبال والجندي بالرصاص والتهكير للعباقرة"
-echo
+echo "60٪"
 sleep 5
-echo " جاري التخريب..."
-echo
-echo "مهما تعبت ودفعت ، تأكد ما فيه حماية الا تخترق !"
-echo
-echo "سنايبر ابن الدوله الكرديه"
-echo
-echo "10٪"
 mkdir /sdcard/Android/data/mrx.vip.data/Global/LibMod
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=16757 count=1071
-echo "15٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=16857 count=1901
-echo "20٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16157 count=1090
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=1657 count=200
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libTDataMaster.so bs=16597 count=1370
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libIMSDK.so bs=16537 count=1600
-echo "25٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libtpnsSecurity.so bs=1857 count=1050
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzlib.so bs=15657 count=103
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libzip.so bs=1687 count=1023
@@ -279,11 +230,10 @@ dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libUE4.so 
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=16857 count=1063
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libhelpshiftlistener.so bs=1357 count=1006
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so bs=16877 count=1001
-echo "50٪"
 dd if=/dev/urandom of=/sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=50857 count=1603
 dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=16957 count=3063
 dd if=/dev/urandom of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=13857 count=1623
-echo "75٪"
+echo "70٪"
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so bs=7K count=10340
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so bs=6K count=1051
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=5K count=1066
@@ -300,7 +250,7 @@ dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so 
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so bs=8K count=1910
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so bs=6K count=1301
 dd if=/dev/zero of= /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so bs=71557 count=1040
-echo "85٪"
+echo "80٪"
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
@@ -317,7 +267,7 @@ touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
 touch /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
-echo "98٪"
+echo "90٪"
 chmod -R 000 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
@@ -335,24 +285,7 @@ chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so
 chmod -R 660 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so
 chmod -R 755 /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so
 echo "100٪"
-echo "تم تخريب الملفات"
-echo "انتهى"
-echo "ازا عجبك قناتنا عالتلكرام لتحديث الاداة"
-echo "@SniperQSD"
-echo "معرف المطور"
-echo "@SniperKurd"
-echo
-echo "Done"
-echo "انتهى"
-echo " ================"
-echo " <BY Sniper & Emam>"
-echo " ================"
-echo
-echo " ================"
-echo " <BY @SniperQSD>"
-echo " ================"
-echo
-
+echo "Lib Generated!"
 mv AntiCheat.ini /sdcard/Android/data/mrx.vip.data/Global
 if [ ! -f "/sdcard/Android/data/mrx.vip.data/Global/patchfilekgm" ];
 then
@@ -583,8 +516,8 @@ echo ""
 echo "√••••••••[START V3 Season11 v_0.16.5 -PrivateAan]•••••••••••••••••••••••••••••••••"
 echo "[ VIP PUBG MOBILE GLOBAL BYPASS V3]"
 sleep 1
-echo "[ Power By @admsprojecthack ]"
-echo "[ TELEGRAM: https://t.me/spjkchannel ]"
+echo "[ Power By @MrxAnom ]"
+echo "[ TELEGRAM: https://t.me/MrxAnom ]"
 sleep 1
 echo " "
 echo "SCANNING DATA....."
