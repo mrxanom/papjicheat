@@ -52,12 +52,12 @@ sleep 1
 wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.0.11462.pak
 wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.0.11463.pak
 wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.0.11464.pak
-wget https://github.com/mrxanom/lib/raw/master/libUE4.so
-wget https://github.com/mrxanom/lib/raw/master/libgcloud.so
-wget https://github.com/mrxanom/lib/raw/master/libprt.so
-wget https://github.com/KoplaxsGaming/VIPKGM/raw/master/KGM4.dat
-wget https://github.com/KoplaxsGaming/VIPKGM/raw/master/KGM5.dat
-wget https://github.com/mrxanom/lib/raw/master/AntiCheat.ini
+#wget https://github.com/mrxanom/lib/raw/master/libUE4.so
+#wget https://github.com/mrxanom/lib/raw/master/libgcloud.so
+#wget https://github.com/mrxanom/lib/raw/master/libprt.so
+#wget https://github.com/KoplaxsGaming/VIPKGM/raw/master/KGM4.dat
+#wget https://github.com/KoplaxsGaming/VIPKGM/raw/master/KGM5.dat
+#wget https://github.com/mrxanom/lib/raw/master/AntiCheat.ini
 sleep 2
 mv game_patch_0.16.0.11462.pak patchfilekgm
 mv game_patch_0.16.0.11463.pak patchfilekgm2
