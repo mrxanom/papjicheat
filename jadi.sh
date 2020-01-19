@@ -494,7 +494,6 @@ if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Sh
 then
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
 fi
-}
 chmod 755 /data/data/com.tencent.ig/lib/*
 rm -rf /data/data/com.tencent.ig/lib/libgcloud.so
 rm -rf /data/data/com.tencent.ig/lib/libxguardian.so
