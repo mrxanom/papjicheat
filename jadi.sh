@@ -366,9 +366,6 @@ chmod -R 000 /data/data/com.tencent.ig/databases/tdm.db
 chmod -R 000 /data/data/com.tencent.ig/databases/bugly_db_
 chmod -R 000 /data/data/com.tencent.ig/databases/config.db
 chmod -R 000 /data/data/com.tencent.ig/databases/iMSDK.db
-}
-movlib()
-{
 rm -rf /data/data/com.tencent.ig/lib/libgcloud.so
 rm -rf /data/data/com.tencent.ig/lib/libxguardian.so
 rm -rf /data/data/com.tencent.ig/lib/libtprt.so
@@ -455,7 +452,6 @@ exit 0;
 fi
 echo "Installasi Selesai"
 }
-
 repair()
 {
 chmod -R 600 /data/data/com.tencent.ig/files/tss_tmp/comm.dat
@@ -486,14 +482,6 @@ chmod -R 660 /data/data/com.tencent.ig/databases/tdm.db
 chmod -R 660 /data/data/com.tencent.ig/databases/bugly_db_
 chmod -R 660 /data/data/com.tencent.ig/databases/config.db
 chmod -R 660 /data/data/com.tencent.ig/databases/iMSDK.db
-if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11560.pak" ];
-then
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11560.pak
-fi
-if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak" ];
-then
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
-fi
 chmod 755 /data/data/com.tencent.ig/lib/*
 rm -rf /data/data/com.tencent.ig/lib/libgcloud.so
 rm -rf /data/data/com.tencent.ig/lib/libxguardian.so
@@ -531,6 +519,14 @@ if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Sh
 then
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11463.pak
 fi
+if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11560.pak" ];
+then
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.5.11560.pak
+fi
+if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak" ];
+then
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11462.pak
+fi
 }
 instal
 echo ""
@@ -552,7 +548,6 @@ exit 0;
 fi
 sleep 1
 echo "_Memulihkan Data"
-
 chmod 755 /data/data/com.tencent.ig/lib/*
 sleep 1
 echo "_Data Telah Pulih"
