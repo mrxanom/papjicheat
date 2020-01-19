@@ -529,10 +529,12 @@ rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Shad
 fi
 }
 instal
+time_start=`date '+%T%t%d_%h_06'`
 echo ""
 echo "√••••••••[START V3 Season11 v_0.16.5 -PrivateAan]•••••••••••••••••••••••••••••••••"
 echo "[ VIP PUBG MOBILE GLOBAL BYPASS V3]"
 sleep 1
+echo "$time_start"
 echo "[ Power By @MrxAnom ]"
 echo "[ TELEGRAM: https://t.me/MrxAnom ]"
 sleep 1
@@ -603,6 +605,10 @@ repair
 sleep 1
 rm -rf /sdcard/Android/data/mrx.vip.data
 echo " Processing Anti Report "
+time_end=`date '+%T%t%d_%h_06'`
+echo "$time_end"
+time_exec=`expr $(( $time_end - $time_start ))`
+echo "Execution time is $time_exec seconds"
 echo " ××××××××× [SALAM SATU JIWA] ××××××××× "
 echo "√••••••••[END]••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••"
 exit
