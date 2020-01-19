@@ -367,7 +367,6 @@ chmod -R 000 /data/data/com.tencent.ig/databases/bugly_db_
 chmod -R 000 /data/data/com.tencent.ig/databases/config.db
 chmod -R 000 /data/data/com.tencent.ig/databases/iMSDK.db
 }
-
 movlib()
 {
 rm -rf /data/data/com.tencent.ig/lib/libgcloud.so
@@ -403,7 +402,6 @@ mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libabase.so /data/data/com.te
 mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libBugly.so /data/data/com.tencent.ig/lib
 mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so /data/data/com.tencent.ig/lib
 mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtersafe.so /data/data/com.tencent.ig/lib
-
 chmod -R 000 /data/data/com.tencent.ig/lib/libgcloud.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libxguardian.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libtprt.so
@@ -529,15 +527,12 @@ cp -R /sdcard/Android/data/mrx.vip.data/Global/bLIB/libabase.so /data/data/com.t
 cp -R /sdcard/Android/data/mrx.vip.data/Global/bLIB/libBugly.so /data/data/com.tencent.ig/lib
 cp -R /sdcard/Android/data/mrx.vip.data/Global/bLIB/libtprt.so /data/data/com.tencent.ig/lib
 cp -R /sdcard/Android/data/mrx.vip.data/Global/bLIB/libtersafe.so /data/data/com.tencent.ig/lib
-
-
 chmod 755 /data/data/com.tencent.ig/lib/*
 if [ -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11463.pak" ];
 then
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11463.pak
 fi
 }
-
 instal
 echo ""
 echo "√••••••••[START V3 Season11 v_0.16.5 -PrivateAan]•••••••••••••••••••••••••••••••••"
