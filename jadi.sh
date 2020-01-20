@@ -344,6 +344,7 @@ rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-wal
 rm -rf /data/data/com.tencent.ig/databases/__hs_log_store
 sleep 10
 echo "Moving Lib Mod"
+mkdir /data/data/com.tencent.ig/lib
 mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so /data/data/com.tencent.ig/lib
 mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so /data/data/com.tencent.ig/lib
 mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libtprt.so /data/data/com.tencent.ig/lib
@@ -602,7 +603,6 @@ su -c iptables --flush
 repair
 
 sleep 1
-rm -rf /sdcard/Android/data/mrx.vip.data/LibMod
 echo " Processing Anti Report "
 time_end="date '+%T%t%d_%h_06'"
 echo "$time_end"
