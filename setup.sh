@@ -34,7 +34,6 @@ tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/libtersaf
 tsu -c wget https://github.com/mrxanom/lib/raw/master/PufferFileList.json
 tsu -c wget https://github.com/mrxanom/lib/raw/master/puffer_res.eifs
 
-tsu -c mv bash.bashrc /data/data/com.termux/files/usr/etc/
 
 tsu -c mv SrcVersion.ini /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv GameErrorNoRecords /sdcard/Android/data/mrx.vip.data/Global
