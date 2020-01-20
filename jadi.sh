@@ -10,14 +10,6 @@ echo "- PUBGM GLOBAL Tidak Terinstall"
 echo "- Silahkan Install Terlebih Dahulu Apk PUBG GLOBAL 0.16.5"
 exit 0;
 fi
-if [ ! -f "/sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.16.0.11466.pak" ];
-then
-echo "- Versi PUBG Tidak Sama dengan Versi Bypass"
-echo "- Silahkan Update Versi PUBG ke 0.16.5  yang Terbaru..."
-echo "- Dan Jika masalah masih muncul silahkan hubungi admin"
-echo "- Telegram: @mrxanom"
-exit 0;
-fi
 if [ ! -f "/data/data/com.tencent.ig/lib/libUE4.so" ];
 then
 echo "- Terjadi corupt pada file PUBGM GLOBAL "
