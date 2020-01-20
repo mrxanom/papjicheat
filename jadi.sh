@@ -452,6 +452,18 @@ exit 0;
 fi
 echo "Installasi Selesai"
 }
+injectip()
+{
+echo "Input IP"
+iptables -I INPUT -s dlied1.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s cloud.gsdk.proximabeta.com -j DROP &>/dev/null
+iptables -I INPUT -s report.helpshift.com -j DROP &>/dev/null
+iptables -I INPUT -s report.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s report.syzs.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s sy.guanjia.qq.com -j DROP &>/dev/null
+rm -rf /data/data/com.tencent.ig/databases/* > /dev/null
+clear
+}
 repair()
 {
 chmod -R 600 /data/data/com.tencent.ig/files/tss_tmp/comm.dat
@@ -529,7 +541,7 @@ rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Shad
 fi
 }
 instal
-time_start=`date '+%T%t%d_%h_06'`
+time_start="date '+%T%t%d_%h_06'"
 echo ""
 echo "√••••••••[START V3 Season11 v_0.16.5 -PrivateAan]•••••••••••••••••••••••••••••••••"
 echo "[ VIP PUBG MOBILE GLOBAL BYPASS V3]"
@@ -581,7 +593,7 @@ echo "_Memulai Game PUBGM GLOBAL"
 sleep 2
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
 sleep 7
-movlib
+injectip
 modstart
 sleep 80
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
@@ -600,14 +612,15 @@ if [ ! $(pidof "com.tencent.ig") ]; then
 sleep 1
 echo "_PUBGM TELAH BERHENTI"
 sleep 1
+su -c iptables --flush
 repair
 
 sleep 1
 rm -rf /sdcard/Android/data/mrx.vip.data
 echo " Processing Anti Report "
-time_end=`date '+%T%t%d_%h_06'`
+time_end="date '+%T%t%d_%h_06'"
 echo "$time_end"
-time_exec=`expr $(( $time_end - $time_start ))`
+time_exec="expr $(( $time_end - $time_start ))"
 echo "Execution time is $time_exec seconds"
 echo " ××××××××× [SALAM SATU JIWA] ××××××××× "
 echo "√••••••••[END]••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••"
@@ -807,6 +820,19 @@ rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Shad
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
 cp -R /sdcard/Android/data/mrx.vip.data/Global/puffer_res.eifs /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
 cp -R /sdcard/Android/data/mrx.vip.data/Global/PufferFileList.json /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+iptables -I INPUT -s dlied1.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s dlied2.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s dlied3.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s dlied4.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s dlied5.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s dlied6.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s cloud.gsdk.proximabeta.com -j DROP &>/dev/null
+iptables -I INPUT -s vmp.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s report.helpshift.com -j DROP &>/dev/null
+iptables -I INPUT -s report.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s report.syzs.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s sy.guanjia.qq.com -j DROP &>/dev/null
+iptables -I INPUT -s astat.bugly.qcloud.com -j DROP &>/dev/null
 sleep 20;
 fi
 done
