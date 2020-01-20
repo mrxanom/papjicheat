@@ -324,56 +324,35 @@ tsu -c cp -R /sdcard/Android/data/mrx.vip.data/Global/game_patch_0.16.0.11466.pa
 tsu -c cp -R /sdcard/Android/data/mrx.vip.data/Global/game_patch_0.16.5.11562.pak  /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
 tsu -c cp -R /sdcard/Android/data/mrx.vip.data/Global/GameErrorNoRecords  /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
 tsu -c cp -R /sdcard/Android/data/mrx.vip.data/Global/SrcVersion.ini  /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
-
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini 
+tsu -c cp -R /storage/emulated/0/MALIKIG/AntiCheat.ini  /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android
 }
 
 modstart()
 {
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/comm.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/config2.xml.b99a2eec
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/config3.xml
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/gp4.ano.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/mn_cache.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/mrpcs.data
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss.ano.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_base.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_cef.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_cfg2.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_lcp.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_r_record.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
-chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
-chmod -R 000 /data/data/com.tencent.ig/files/hawk_data
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_issues
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_key_values
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_properties
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs_db_helpshift_users
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_support_key_values
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs_db_helpshift_users
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs__db_sessions
-chmod -R 000 /data/data/com.tencent.ig/databases/__hs_log_store
-chmod -R 000 /data/data/com.tencent.ig/databases/tdm.db
-chmod -R 000 /data/data/com.tencent.ig/databases/bugly_db_
-chmod -R 000 /data/data/com.tencent.ig/databases/config.db
-chmod -R 000 /data/data/com.tencent.ig/databases/iMSDK.db
-rm -rf /data/data/com.tencent.ig/lib/libgcloud.so
-rm -rf /data/data/com.tencent.ig/lib/libxguardian.so
-rm -rf /data/data/com.tencent.ig/lib/libtprt.so
-rm -rf /data/data/com.tencent.ig/lib/libtersafe.so
-rm -rf /data/data/com.tencent.ig/lib/libTDataMaster.so
-rm -rf /data/data/com.tencent.ig/lib/libIMSDK.so
-rm -rf /data/data/com.tencent.ig/lib/libtpnsSecurity.so
-rm -rf /data/data/com.tencent.ig/lib/libzlib.so
-rm -rf /data/data/com.tencent.ig/lib/libzip.so
-rm -rf /data/data/com.tencent.ig/lib/libUE4.so
-rm -rf /data/data/com.tencent.ig/lib/libhelpshiftlistener.so
-rm -rf /data/data/com.tencent.ig/lib/libhelpshiftlistener.so
-rm -rf /data/data/com.tencent.ig/lib/libabase.so
-rm -rf /data/data/com.tencent.ig/lib/libBugly.so
-rm -rf /data/data/com.tencent.ig/lib/libtprt.so
-rm -rf /data/data/com.tencent.ig/lib/libtersafe.so
-sleep 7
+rm -rf /data/data/com.tencent.ig/lib
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_key_values-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_properties-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_sessions-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_support_key_values
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_support_key_values-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs__db_support_key_values-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users
+rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs_db_helpshift_users-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-shm
+rm -rf /data/data/com.tencent.ig/databases/__hs_log_store-wal
+rm -rf /data/data/com.tencent.ig/databases/__hs_log_store
+sleep 10
 echo "Moving Lib Mod"
 mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libgcloud.so /data/data/com.tencent.ig/lib
 mv /sdcard/Android/data/mrx.vip.data/Global/LibMod/libxguardian.so /data/data/com.tencent.ig/lib
@@ -445,6 +424,7 @@ echo "Installasi Selesai"
 }
 injectip()
 {
+sleep 3
 echo "Input IP"
 iptables -I INPUT -s dlied1.qq.com -j DROP &>/dev/null
 iptables -I INPUT -s cloud.gsdk.proximabeta.com -j DROP &>/dev/null
@@ -453,6 +433,7 @@ iptables -I INPUT -s report.qq.com -j DROP &>/dev/null
 iptables -I INPUT -s report.syzs.qq.com -j DROP &>/dev/null
 iptables -I INPUT -s sy.guanjia.qq.com -j DROP &>/dev/null
 rm -rf /data/data/com.tencent.ig/databases/* > /dev/null
+sleep 120
 clear
 }
 repair()
@@ -562,6 +543,7 @@ sleep 1
 echo "_Tunggu Sebentar…"
 bypass
 sleep 1
+clear
 echo ""
 echo "_________×[RULESS]×_________"
 echo ""
