@@ -22,7 +22,7 @@ echo ""
 echo "- Instalasi Selesai..."
 sleep 2
 fi
-echo "#_MEMULAI INSTALLASI DATA BYPASS GLOBAL MrxAnom V1"
+echo "#_MEMULAI INSTALLASI DATA BYPASS GLOBAL MrxAnom V2"
 echo ""
 echo ""
 sleep 1
