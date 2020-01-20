@@ -317,7 +317,7 @@ tsu -c cp -R /sdcard/Android/data/mrx.vip.data/Global/game_patch_0.16.5.11562.pa
 tsu -c cp -R /sdcard/Android/data/mrx.vip.data/Global/GameErrorNoRecords  /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
 tsu -c cp -R /sdcard/Android/data/mrx.vip.data/Global/SrcVersion.ini  /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini 
-tsu -c cp -R /storage/emulated/0/MALIKIG/AntiCheat.ini  /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android
+tsu -c cp -R /sdcard/Android/data/mrx.vip.data/Global/AntiCheat.ini  /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android
 }
 
 modstart()
