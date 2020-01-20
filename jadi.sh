@@ -37,9 +37,7 @@ mount -o rw,remount /system
 mkdir /sdcard/Android/data/mrx.vip.data
 mkdir /sdcard/Android/data/mrx.vip.data/Global
 mkdir /sdcard/Android/data/mrx.vip.data/Global/bDATA
-rm -rf /sdcard/Android/data/mrx.vip.data/Global/bLIB
 mkdir /sdcard/Android/data/mrx.vip.data/Global/bLIB
-rm -rf /sdcard/Android/data/mrx.vip.data/Global/LibMod
 mkdir /sdcard/Android/data/mrx.vip.data/Global/LibMod
 cp -R /data/data/com.tencent.ig/lib/* /sdcard/Android/data/mrx.vip.data/Global/bLIB
 sleep 1
@@ -558,8 +556,8 @@ echo "_Memulai Game PUBGM GLOBAL"
 sleep 2
 am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
 sleep 7
-injectip
 modstart
+injectip
 #Remove DB
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues
 rm -rf /data/data/com.tencent.ig/databases/__hs__db_issues-shm
