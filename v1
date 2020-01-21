@@ -808,8 +808,8 @@ rm -rf /sdcard/Tencent &> /dev/null
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
 mkdir /data/data/com.tencent.ig/files/tss_tmp
-cp -R tss/puffer_res.eifs /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
-cp -R tss/PufferFileList.json /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+cp -R /sdcard/Android/data/mrx.vip.data/Global/puffer_res.eifs /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+cp -R /sdcard/Android/data/mrx.vip.data/Global/PufferFileList.json /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
 cp -R tss/config3.xml /data/data/com.tencent.ig/files/tss_tmp/
 cp -R tss/mrpcs.data /data/data/com.tencent.ig/files/tss_tmp/
 cp -R tss/tss_shp_tmp.dat /data/data/com.tencent.ig/files/tss_tmp/
