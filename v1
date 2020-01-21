@@ -805,8 +805,53 @@ rm -rf /sdcard/.backups &> /dev/null
 rm -rf /sdcard/Tencent &> /dev/null
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
 rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/config2.xml.b99a2eec
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/gp4.ano.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/mn_cache.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss.ano.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_base.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_cef.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_cfg2.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_r_record.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/mrpcs.data
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/config3.xml
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/tss_lcp.dat
+rm -rf /data/data/com.tencent.ig/files/tss_tmp/comm.dat
 cp -R /sdcard/Android/data/mrx.vip.data/Global/puffer_res.eifs /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
 cp -R /sdcard/Android/data/mrx.vip.data/Global/PufferFileList.json /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/config3.xml /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/mrpcs.data /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/tss_shp_tmp.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/tss_r_record.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/tss_lcp.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/tss_emu_c2.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/tss_cfg2.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/tss_cef.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/tss_base.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/tss.ano.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/mn_cache.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/gp4.ano.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/comm.dat /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/config2.xml.b99a2eec /data/data/com.tencent.ig/files/tss_tmp/
+cp -R /sdcard/Android/data/mrx.vip.data/Global/tss/tssmua.zip /data/data/com.tencent.ig/files/tss_tmp/
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/config2.xml.b99a2eec
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/gp4.ano.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/mn_cache.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss.ano.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_base.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_cef.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_cfg2.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_r_record.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/mrpcs.data
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/config3.xml
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_lcp.dat
+chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/comm.dat
 sleep 20;
 fi
 done
