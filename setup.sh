@@ -33,7 +33,9 @@ tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/SrcVersio
 tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/libtersafe.so
 tsu -c wget https://github.com/mrxanom/lib/raw/master/PufferFileList.json
 tsu -c wget https://github.com/mrxanom/lib/raw/master/puffer_res.eifs
-
+tsu -c wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.0.11463.pak
+tsu -c wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.5.11560.pak
+tsu -c wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.0.11462.pak
 
 tsu -c mv SrcVersion.ini /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv GameErrorNoRecords /sdcard/Android/data/mrx.vip.data/Global
@@ -43,6 +45,9 @@ tsu -c mv game_patch_0.16.0.11464.pak /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv game_patch_0.16.0.11463.pak /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv core_patch_0.16.5.11560.pak /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv core_patch_0.16.0.11462.pak /sdcard/Android/data/mrx.vip.data/Global
+tsu -c mv game_patch_0.16.0.11463.pak /sdcard/Android/data/mrx.vip.data/Global
+tsu -c mv game_patch_0.16.5.11560.pak /sdcard/Android/data/mrx.vip.data/Global
+tsu -c mv game_patch_0.16.0.11462.pak /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv puffer_res.eifs /sdcard/Android/data/mrx.vip.data/Global/puffer_res.eifs
 tsu -c mv PufferFileList.json /sdcard/Android/data/mrx.vip.data/Global/PufferFileList.json
 tsu -c mv AntiCheat.ini /sdcard/Android/data/mrx.vip.data/Global
