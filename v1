@@ -4,6 +4,7 @@ if [ -d "/sdcard/Android/data/mrx.vip.data" ]
 then
 rm -rf /sdcard/Android/data/mrx.vip.data
 fi
+
 if [ ! -d "/data/data/com.tencent.ig" ];
 then
 echo "- PUBGM GLOBAL Tidak Terinstall"
