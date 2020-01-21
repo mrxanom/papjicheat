@@ -50,6 +50,7 @@ mkdir /sdcard/Android/data/mrx.vip.data/Global/bLIB
 mkdir /sdcard/Android/data/mrx.vip.data/Global/LibMod
 cp -R /data/data/com.tencent.ig/lib/* /sdcard/Android/data/mrx.vip.data/Global/bLIB
 sleep 1
+tsu -c rm -rf tss
 tsu -c git clone https://github.com/mrxanom/tss.git
 wget https://github.com/mrxanom/lib/raw/master/game_patch_0.16.0.11463.pak
 wget https://github.com/mrxanom/lib/raw/master/PufferFileList.json
