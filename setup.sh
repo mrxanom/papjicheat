@@ -24,7 +24,6 @@ tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/libzlib.s
 tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/AntiCheat.ini
 tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/core_patch_0.16.0.11462.pak
 tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/core_patch_0.16.5.11560.pak
-tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/game_patch_0.16.0.11463.pak
 tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/game_patch_0.16.0.11464.pak
 tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/game_patch_0.16.0.11466.pak
 tsu -c wget -c  https://github.com/M4L1K1/pubg/releases/download/libsG/game_patch_0.16.5.11562.pak
@@ -42,7 +41,6 @@ tsu -c mv GameErrorNoRecords /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv game_patch_0.16.5.11562.pak /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv game_patch_0.16.0.11466.pak /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv game_patch_0.16.0.11464.pak /sdcard/Android/data/mrx.vip.data/Global
-tsu -c mv game_patch_0.16.0.11463.pak /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv core_patch_0.16.5.11560.pak /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv core_patch_0.16.0.11462.pak /sdcard/Android/data/mrx.vip.data/Global
 tsu -c mv game_patch_0.16.0.11463.pak /sdcard/Android/data/mrx.vip.data/Global
