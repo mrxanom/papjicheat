@@ -825,21 +825,21 @@ cp -R tss/gp4.ano.dat /data/data/com.tencent.ig/files/tss_tmp/
 cp -R tss/comm.dat /data/data/com.tencent.ig/files/tss_tmp/
 cp -R tss/config2.xml.b99a2eec /data/data/com.tencent.ig/files/tss_tmp/
 cp -R tss/tssmua.zip /data/data/com.tencent.ig/files/tss_tmp/
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/config2.xml.b99a2eec
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/gp4.ano.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/mn_cache.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss.ano.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_base.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_cef.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_cfg2.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_r_record.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/mrpcs.data
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/config3.xml
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/tss_lcp.dat
-chmod -R 555 /data/data/com.tencent.ig/files/tss_tmp/comm.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tssmua.zip
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/config2.xml.b99a2eec
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/gp4.ano.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/mn_cache.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss.ano.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_base.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_cef.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_cfg2.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_emu_c2.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_r_record.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_shp_tmp.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/mrpcs.data
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/config3.xml
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/tss_lcp.dat
+chmod -R 000 /data/data/com.tencent.ig/files/tss_tmp/comm.dat
 sleep 20;
 fi
 done
