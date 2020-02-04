@@ -1,5 +1,6 @@
 urdata()
 {
+
 mv /sdcard/Android/data/spjk.vip.data/Global/gDATA1.spjk /sdcard/Android/data/spjk.vip.data/Global/libtersafe.so
 mv /sdcard/Android/data/spjk.vip.data/Global/gDATA2.spjk /sdcard/Android/data/spjk.vip.data/Global/libzip.so
 dd if=/dev/urandom of=/sdcard/Android/data/spjk.vip.data/Global/BypassConfig.cfg bs=15657 count=103
