@@ -1,0 +1,385 @@
+COUNT=50
+
+sd=storage/emulated/0
+DATA1=storage/emulated/0/Android/data/com.tencent.ig
+DATA2=storage/emulated/0/Android/data/com.tencent.ig/files
+DATA3=storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra
+DATA4=storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra
+DATA5=storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved
+PAKS=storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+
+Logcleaner () 
+{
+rm -rf /storage/emulated/0/.chaozhuo.gameassistant
+rm -rf /storage/emulated/0/backups
+rm -rf /storage/emulated/0/.estrongs
+rm -rf /storage/emulated/0/.dlprovider
+rm -rf /storage/emulated/0/osmini
+rm -f /cache/magisk.log
+rm -f /cache/magisk.log.bak
+date "+%a %d %b %Y %Z %H:%M:%S"
+echo "╔══════════════════════════════╗"
+echo "| ✓  menghapus log ᴄʟᴇᴀʀᴇᴅ ✓  |"
+echo "╚══════════════════════════════╝"
+sleep 10
+}
+
+Fix()
+{
+echo "╔══════════════════════════════╗"
+echo "|      ✓ Fix 10 Menit ✓       |"
+echo "╚══════════════════════════════╝"
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache
+rm -rf /storage/emulated/0/MidasOverse
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/IGH5CachePluginConfig.ini
+sleep 1
+}
+
+instalasi()
+{
+if [ ! -d "/sdcard/.projectcovid/corona1" ];
+then
+echo "Data belum terunduh, mengunduh data"
+mkdir /sdcard/.projectcovid
+wget wget --load-cookies /tmp/cookies.txt "https://docs.google.com/uc?export=download&confirm=$(wget --quiet --save-cookies /tmp/cookies.txt --keep-session-cookies --no-check-certificate 'https://docs.google.com/uc?export=download&id=1uv3i85MovXJN5aXFVbbNUefUT5n4xG--' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1\n/p')&id=1uv3i85MovXJN5aXFVbbNUefUT5n4xG--" -O corona1 && rm -rf /tmp/cookies.txt
+wget https://github.com/mrxanom/papjicheat/raw/master/corona2
+wget https://github.com/mrxanom/papjicheat/raw/master/corona3
+wget https://github.com/mrxanom/papjicheat/raw/master/corona4
+wget https://github.com/mrxanom/papjicheat/raw/master/corona5
+wget https://github.com/mrxanom/papjicheat/raw/master/corona6
+wget https://github.com/mrxanom/papjicheat/raw/master/corona7
+wget https://github.com/mrxanom/papjicheat/raw/master/corona8
+wget https://github.com/mrxanom/papjicheat/raw/master/corona9
+wget https://github.com/mrxanom/papjicheat/raw/master/corona10
+mv corona1 /sdcard/.projectcovid/corona1
+mv corona2 /sdcard/.projectcovid/corona2
+mv corona3 /sdcard/.projectcovid/corona3
+mv corona4 /sdcard/.projectcovid/corona4
+mv corona5 /sdcard/.projectcovid/corona5
+mv corona6 /sdcard/.projectcovid/corona6
+mv corona7 /sdcard/.projectcovid/corona7
+mv corona8 /sdcard/.projectcovid/corona8
+mv corona9 /sdcard/.projectcovid/corona9
+mv corona10 /sdcard/.projectcovid/corona10
+echo "download selesai"
+fi
+sleep 1
+echo "╔══════════════════════════════╗"
+echo "|✪Please Wait...                                 |"
+echo "╚══════════════════════════════╝"
+sleep 2
+rm -rf /storage/emulated/0/.backups/com.tencent.ig
+touch /storage/emulated/0/.backups/com.tencent.ig
+chattr -i /storage/emulated/0/.backups/com.tencent.ig
+rm -rf /storage/emulated/0/tencent/Midas/Log/com.tencent.ig
+touch /storage/emulated/0/tencent/Midas/Log/com.tencent.ig
+chattr -i /storage/emulated/0/tencent/Midas/Log/com.tencent.ig
+chmod -R 555 /data/media/0/MidasOversea/GUID
+echo ""
+echo "╔══════════════════════════════╗"
+echo "|✪Replacing File Data Crash...                   |"
+echo "╚══════════════════════════════╝"
+sleep 3
+rm -rf /data/data/com.tencent.ig/app_bugly
+rm -rf /data/data/com.tencent.ig/app_crashrecord
+rm -rf /data/data/com.tencent.ig/no_backup
+rm -rf /data/data/com.tencent.ig/files
+touch /data/data/com.tencent.ig/app_bugly
+touch /data/data/com.tencent.ig/app_crashrecord
+touch /data/data/com.tencent.ig/no_backup
+touch /data/data/com.tencent.ig/files
+chmod 755 /data/data/com.tencent.ig/app_bugly
+chmod 755 /data/data/com.tencent.ig/app_crashrecord
+chmod 755 /data/data/com.tencent.ig/no_backup
+chmod 755 /data/data/com.tencent.ig/files
+echo ""
+echo "╔══════════════════════════════╗"
+echo "|✪Deleting Magisk LOG...                         |"
+echo "╚══════════════════════════════╝"
+sleep 2
+rm -f /cache/magisk.log
+rm -f /cache/magisk.log.bak
+sleep 1
+echo ""
+echo "╔══════════════════════════════╗"
+echo "|✪Download Data PROJECT CORONA |"
+echo "╚══════════════════════════════╝"
+if [ ! -d "/data/data/com.tencent.ig" ];
+then
+echo "- PUBGM GLOBAL Tidak Terinstall"
+echo "- Silahkan Install Terlebih Dahulu Apk PUBG GLOBAL 0.17.0"
+exit 0;
+fi
+mkdir /sdcard/.projectcovid/backup
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak /sdcard/.projectcovid/backup/covid1
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11801.pak /sdcard/.projectcovid/backup/covid2
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak /sdcard/.projectcovid/backup/covid3
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11800.pak /sdcard/.projectcovid/backup/covid4
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11802.pak /sdcard/.projectcovid/backup/covid5
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11803.pak /sdcard/.projectcovid/backup/covid6
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11804.pak /sdcard/.projectcovid/backup/covid7
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11805.pak /sdcard/.projectcovid/backup/covid8
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.17.0.11560_20200108100228_1861002805_cures.ifs.res /sdcard/.projectcovid/backup/covid9
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.17.0.11802_20200301094448_801478906_cures.ifs.res /sdcard/.projectcovid/backup/covid10
+mv /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.17.0.11466_20191217035913_101356488_cures.ifs.res /sdcard/.projectcovid/backup/covid11
+cp -R /sdcard/.projectcovid/corona1 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
+cp -R /sdcard/.projectcovid/corona2 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11801.pak
+cp -R /sdcard/.projectcovid/corona2 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak
+cp -R /sdcard/.projectcovid/corona3 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11800.pak
+cp -R /sdcard/.projectcovid/corona4 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11802.pak
+cp -R /sdcard/.projectcovid/corona5 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11803.pak
+cp -R /sdcard/.projectcovid/corona6 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11804.pak
+cp -R /sdcard/.projectcovid/corona7 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11805.pak
+cp -R /sdcard/.projectcovid/corona8 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.17.0.11560_20200108100228_1861002805_cures.ifs.res
+cp -R /sdcard/.projectcovid/corona9 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.17.0.11802_20200301094448_801478906_cures.ifs.res
+cp -R /sdcard/.projectcovid/corona10 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.17.0.11466_20191217035913_101356488_cures.ifs.res
+echo " INJECK BYPASS Dimulai"
+if [ ! -f "/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak" ];
+then
+echo ""
+echo "╔══════════════════════════════╗"
+echo " • Installasi Gagal                               "
+echo " • Data Tidak ditemukan, silahkan coba lagi       "
+echo " • Atau hubungi @gHesss_Boys                      "
+echo "╚══════════════════════════════╝"
+exit 0;
+fi
+if [ ! -f "/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak" ];
+then
+echo ""
+echo "╔══════════════════════════════╗"
+echo " • Installasi Gagal                               "
+echo " • Data Tidak ditemukan, silahkan coba lagi       "
+echo " • Atau hubungi @gHesss_Boys                      "
+echo "╚══════════════════════════════╝"
+exit 0;
+fi
+if [ ! -f "/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11805.pak" ];
+then
+echo ""
+echo "╔══════════════════════════════╗"
+echo " • Installasi Gagal                               "
+echo " • Data Tidak ditemukan, silahkan coba lagi       "
+echo " • Atau hubungi @gHesss_Boys                      "
+echo "╚══════════════════════════════╝"
+exit 0;
+fi
+if [ ! -f "/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.17.0.11802_20200301094448_801478906_cures.ifs.res" ];
+then
+echo ""
+echo "╔══════════════════════════════╗"
+echo " • Installasi Gagal                               "
+echo " • Data Tidak ditemukan, silahkan coba lagi       "
+echo " • Atau hubungi @gHesss_Boys                      "
+echo "╚══════════════════════════════╝"
+exit 0;
+fi
+echo "╔══════════════════════════════╗"
+echo "|✪Instalasi Data PROJECT CORONA Done!       |"
+echo "╚══════════════════════════════╝"
+}
+
+datamod()
+{
+mv /$PAKS/apollo_reslist.flist /sdcard/.projectcovid/backup/
+mv /$PAKS/filelist.json /sdcard/.projectcovid/backup/
+mv /$PAKS/puffer_res.eifs /sdcard/.projectcovid/backup/
+mv /$PAKS/PufferFileList.json /sdcard/.projectcovid/backup/
+mv /$PAKS/*cures* /sdcard/.projectcovid/backup/
+}
+
+repair()
+{
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11801.pak
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11800.pak
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11802.pak
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11803.pak
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11804.pak
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/core_patch_0.17.0.11805.pak
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.17.0.11560_20200108100228_1861002805_cures.ifs.res
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1375135419_47_0.17.0.11802_20200301094448_801478906_cures.ifs.res
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/1950038955_3090_0.17.0.11466_20191217035913_101356488_cures.ifs.res
+mv /sdcard/.projectcovid/backup/* /$PAKS/
+}
+
+clearcache()
+{
+rm -rf /sdcard/Android/data/com.*/cache
+rm -rf /sdcard/Android/data/bin.*/cache
+rm -rf /sdcard/Android/data/by.*/cache
+rm -rf /sdcard/Android/data/ru.*/cache
+rm -rf /sdcard/Android/data/eu.*/cache
+rm -rf /sdcard/Android/data/org.*/cache
+rm -rf /sdcard/Android/data/tv.*/cache
+rm -rf /sdcard/Android/data/net.*/cache
+echo "╔══════════════════════════════╗"
+echo "| • Clear Cache 25%                              |"
+echo "╚══════════════════════════════╝"
+sleep 1
+rm -rf /sdcard/Android/data/*/cache
+echo "╔══════════════════════════════╗"
+echo "| • Clear Cache 50%                              |"
+echo "╚══════════════════════════════╝"
+sleep 1
+rm -rf /data/data/com.*/cache
+rm -rf /data/data/bin.*/cache
+rm -rf /data/data/by.*/cache
+rm -rf /data/data/ru.*/cache
+rm -rf /data/data/eu.*/cache
+rm -rf /data/data/org.*/cache
+rm -rf /data/data/tv.*/cache
+rm -rf /data/data/net.*/cache
+echo "╔══════════════════════════════╗"
+echo "| • Clear Cache 75%                              |"
+echo "╚══════════════════════════════╝"
+sleep 2
+rm -rf /data/data/*/cache
+echo "╔══════════════════════════════╗"
+echo "| • Clear Cache 100%                             |"
+echo "╚══════════════════════════════╝"
+echo "[✔] ALL DONE!!!"
+}
+
+
+ScaneDevice()
+{
+echo ""
+echo "Mantaaap Kalian Luar Biassa !!!"
+}
+
+
+sleep 3
+echo ""
+echo -n "Time Zone																: "
+getprop persist.sys.timezone
+sleep 1
+echo -n "GSM Operator													: "
+getprop gsm.operator.alpha
+sleep 1
+echo -n "ISO Country														: "
+getprop gsm.operator.iso-country
+sleep 1
+echo -n "Device Brand													: "
+getprop ro.product.brand
+sleep 1
+echo -n "Device Model													: "
+getprop ro.product.model
+sleep 1
+echo -n "Device Chipset											: "
+getprop ro.hardware
+sleep 2
+echo ""
+iptables --flush
+instalasi
+echo ""
+echo "╔══════════════════════════════╗"
+echo "| ✪[RULES]                                       |"
+echo "╚══════════════════════════════╝"
+echo "[✔] Gunakan BYPASS LOBBY Script PROJECT CORONA.          "
+sleep 1
+echo "• Avoid report in GAME"
+echo "• Max Kill 12"
+echo "• Don't use features other than above"
+echo "• If you really want to Push RANK !!"
+echo "• Do not shoot enemies behind the Wall, Trees, Stones and so on, shoot when the enemy is right seen and logical to kill"
+echo "• Play Like a PRO PLAYER"
+sleep 1
+echo ""
+echo "╔══════════════════════════════╗"
+echo "| ✪FITUR SAFE :                                  |"
+echo "╚══════════════════════════════╝"
+echo "[✔] Wallhack & Collor"
+echo "[✔] Less Recoil"
+echo "[✔] Magic Bullet & Headshot (HS 70-100% Rentan Notice 10Minutes Ban)"
+echo "╔══════════════════════════════╗"
+echo "| ✪Hindari Report di dalam GAME                  |"
+echo "╚══════════════════════════════╝"
+echo ""
+sleep 17
+echo "╔══════════════════════════════╗"
+echo "|✪Starting GameGuardian...                |"
+echo "╚══════════════════════════════╝"
+sleep 1
+am start -n com.xbvqitfebbloqbyh/com.xbvqitfebbloqbyh.MainActivity
+sleep 1
+am start -n bin.mt.plus/bin.mt.plus.Main
+sleep 3
+echo "╔══════════════════════════════╗"
+echo "|✪Starting PUBG MOBILE GLOBAL                    |"
+echo "╚══════════════════════════════╝"
+sleep 3
+echo ""
+am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
+sleep 50
+datamod
+echo ""
+c=0
+PACKAGE='com.tencent.ig'
+while [ $(pidof $PACKAGE) ]
+do
+c=$((c+1))
+Logcleaner
+((COUNT=$COUNT+10))
+if [ ! $(pidof $PACKAGE) ]; then
+break
+fi
+sleep 1
+done
+((final=$COUNT/60))
+am force-stop com.xbvqitfebbloqbyh
+am start -n bin.mt.plus/bin.mt.plus.Main
+echo ""
+echo "╔══════════════════════════════╗"
+printf "✪Game Stoped, Waktu Bermain Anda ";
+echo $final "Minutes ";
+echo "╚══════════════════════════════╝"
+echo ""
+echo ""
+echo "╔══════════════════════════════╗"
+echo "|✪Closing GameGuardian                           |"
+echo "╚══════════════════════════════╝"
+echo ""
+sleep 1
+echo "╔══════════════════════════════╗"
+echo "|✪PROSES REPAIR DAN CLEARING CACHE               |"
+echo "╚══════════════════════════════╝"
+echo "[✔] Repairs Paks and Permission to Default !!!  "
+echo "[✔] Membersihkan Cache - Data                   "
+echo "[✔] Please Wait......                           "
+repair
+sleep 1
+am force-stop com.tencent.ig
+echo "╔══════════════════════════════╗"
+echo "|✪Repair Data Selesai !!!!                       |"
+echo "╚══════════════════════════════╝"
+echo ""
+clearcache
+sleep 3
+echo ""
+echo "╔══════════════════════════════╗"
+echo "|✪FINISH.                                        |"
+echo "╚══════════════════════════════╝"
+echo "[✔] Now You Can Exit Script/MT Manager            "
+sleep 0
+echo ""
+echo "╔══════════════════════════════╗"
+echo "| © Coding By :                                  |"
+echo "╚══════════════════════════════╝"
+echo "• Creator MRXANOM                "
+echo ""
+echo ""
+echo ""
+echo ""
+echo "_____________________________________________________"
+echo "           ✰||| Keep Using if Work |||✰    "
+echo "_____________________________________________________"
+echo ""
